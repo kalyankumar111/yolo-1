@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/table', [App\Http\Controllers\HomeController::class, 'table'])->name('table');
+Route::get('/adduser', [App\Http\Controllers\HomeController::class, 'adduser'])->name('reg');
+Route::post('/contactus', [App\Http\Controllers\HomeController::class, 'contactus'])->name('contactus');

@@ -561,7 +561,8 @@
 
                         <div class="cr-contact-form">
 
-                            <form id="contact-form" action="php/mail.php" method="post">
+                            <form action="/contactus" method="post">
+                                @csrf
                                 <input type="text" placeholder="Name" name="name">
                                 <input type="email" placeholder="Email" name="email">
                                 <input type="text" placeholder="Phone Number" name="number">
