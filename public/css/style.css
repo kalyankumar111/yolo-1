@@ -1,0 +1,39 @@
+/*
+  Template Name: Pixal - Creative Multipurpose Template
+  Template URI: http://devitems.com
+  Description: Creative Multipurpose Template
+  Author: Hasthemes
+  Author URI: http://devitems.com
+  Version: 1.0
+
+*/
+/*================================================
+[  Table of contents  ]
+================================================
+
+  1. Import Default & Template CSS
+  2. Custom CSS Goes Here
+
+======================================
+[ End table content ]
+======================================*/
+
+/*--
+    1. Import Default & Template CSS
+----------------------------------------*/
+/*Default*/
+@import url('default.css');
+/*Buttons*/
+@import url('shortcode/buttons.css');
+/*Headers*/
+@import url('shortcode/header.css');
+/*Templates*/
+@import url('template/creative.css');
+@import url('template/corporate.css');
+@import url('template/restaurant.css');
+@import url('template/minimal.css');
+@import url('template/photography.css');
+
+/*--
+    2. Custom CSS Goes Here
+----------------------------------------*/
