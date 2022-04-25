@@ -15,7 +15,8 @@
                             <table class="table align-items-center mb-0">
                                 <thead>
                                     <tr>
-                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        <th
+                                            class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                             Name</th>
                                         <th
                                             class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
@@ -26,7 +27,9 @@
                                         <th
                                             class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                             Message </th>
-                                        <th class="text-secondary opacity-7"></th>
+                                        <th
+                                            class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            Date</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -48,13 +51,12 @@
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span
-                                                    class="text-secondary text-xs font-weight-bold">{{ substr($tab->desc,0, 50 ) }}</span>
+                                                    class="text-secondary text-xs font-weight-bold">{{ substr($tab->desc, 0, 50) }}</span>
                                             </td>
                                             <td class="align-middle">
-                                                <a href="javascript:;" class="text-secondary font-weight-bold text-xs"
-                                                    data-toggle="tooltip" data-original-title="Edit user">
-                                                    Edit
-                                                </a>
+                                                <span class="text-secondary text-xs font-weight-bold">
+                                                    {{ $tab->created_at }}
+                                                </span>
                                             </td>
                                         </tr>
                                     @empty
