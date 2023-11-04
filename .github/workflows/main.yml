@@ -16,4 +16,4 @@ jobs:
         with:
           server: ftp.yolostudio.in
           username: kumarkalyan736@yolostudio.in
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: kumarkalyan736@121
