@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Fav.ico">
     <!-- All CSS Files -->
     <!-- Bootstrap css -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -606,19 +606,34 @@ $test = [
         "image"=>"img/img/KidsPortfolio.jpg",
         "eventType"=>"Event Photography",
         "css"=>"height:100%;object-fit:cover"
-            ],
+         ],
             [
             "image"=>"img/img/DSC00673copy.jpg",
             "eventType"=>"Product & Event",
             "css"=>"height:100%;object-fit:cover"
             ],
              [
-             "image"=>"img/img/Gummies-02-Laxito_Gummies-01.jpg",
-
-             "eventType"=>"Product Photography",
+             "image"=>"img/img/WeddingPhotography.jpg",
+             "eventType"=>"Wedding Photography",
              "css"=>"height:100%;object-fit:cover;object-position: center 75%;"
 
-             ]
+            ],
+              [
+              "image"=>"img/img/Raahi.jpg",
+
+              "eventType"=>"Event Photography",
+              "css"=>"height:100%;object-fit:cover;object-position: center 75%;"
+
+            ],
+                [
+                "image"=>"img/img/Birthday.jpg",
+
+                "eventType"=>"Birthday Photography",
+                "css"=>"height:100%;object-fit:cover;object-position: center 75%;"
+
+                ]
+
+
 
 
     ]
