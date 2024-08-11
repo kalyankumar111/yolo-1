@@ -3,3 +3,11 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/t8rhqcz6u3gd/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /usr/local/bin/composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+    - php artisan migrate --force
+    - php artisan config:cache
+    - php artisan route:cache
+    - php artisan view:cache
+    - php artisan storage:link
+    - find $DEPLOY_PATH -type f -exec chmod 644 {} \;
+    - find $DEPLOY_PATH -type d -exec chmod 755 {} \;
