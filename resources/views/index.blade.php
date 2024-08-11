@@ -218,7 +218,7 @@
                                         <p class="lh">Design Studio&nbsp;</p>
                                     </span>
 
-                                    <p class="mt-3 my-lg-5"> <a href="#cr-contact" class="btn btn-border-white btn-hover-cr" data-scroll>Let's Begin</a> </p>
+                                    <p class="mt-3 my-lg-5"> <a href="#cr-contact" class="btn btn-border-white btn-hover-cr" data-scroll>Let's go</a> </p>
 
 
                                     <p>&nbsp;</p>
